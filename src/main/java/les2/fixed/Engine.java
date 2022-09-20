@@ -1,4 +1,4 @@
 package les2.fixed;
 
-public class Engine {
+public interface Engine {
 }
