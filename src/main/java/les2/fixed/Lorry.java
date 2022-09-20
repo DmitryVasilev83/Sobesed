@@ -1,6 +1,6 @@
 package les2.fixed;
 
-public class Lorry extends Car implements Moveable, Stopable{
+public class Lorry extends Car implements Moveable{
 
     // Тут не хватало имплементированного интерфейса.
     // можно создать еще один интерфейс для метода open(), и убрать его из класса Car.

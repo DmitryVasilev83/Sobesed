@@ -1,7 +1,7 @@
 package les2.fixed;
 
 public abstract class Car {
-    public Engine engine;
+    private Engine engine;
     private String color;
     private String name;
 
