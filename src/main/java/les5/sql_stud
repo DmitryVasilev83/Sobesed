@@ -1,0 +1,16 @@
+CREATE TABLE students(
+	id BIGSERIAL NOT NULL PRIMARY KEY,
+	name varchar(50) NOT NULL,
+	mark varchar(10)
+);
+
+INSERT INTO students (name, mark) VALUES ('student1', '1');
+INSERT INTO students (name, mark) VALUES ('student2', '1');
+INSERT INTO students (name, mark) VALUES ('student3', '1');
+INSERT INTO students (name, mark) VALUES ('student4', '1');
+INSERT INTO students (name, mark) VALUES ('student5', '1');
+INSERT INTO students (name, mark) VALUES ('student6', '1');
+INSERT INTO students (name, mark) VALUES ('student7', '1');
+INSERT INTO students (name, mark) VALUES ('student8', '1');
+INSERT INTO students (name, mark) VALUES ('student9', '1');
+INSERT INTO students (name, mark) VALUES ('student10', '1');
